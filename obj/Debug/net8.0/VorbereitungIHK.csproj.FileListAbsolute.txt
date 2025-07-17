@@ -1,0 +1,14 @@
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\bin\Debug\net8.0\VorbereitungIHK.exe
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\bin\Debug\net8.0\VorbereitungIHK.deps.json
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\bin\Debug\net8.0\VorbereitungIHK.runtimeconfig.json
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\bin\Debug\net8.0\VorbereitungIHK.dll
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\bin\Debug\net8.0\VorbereitungIHK.pdb
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\obj\Debug\net8.0\VorbereitungIHK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\obj\Debug\net8.0\VorbereitungIHK.AssemblyInfoInputs.cache
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\obj\Debug\net8.0\VorbereitungIHK.AssemblyInfo.cs
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\obj\Debug\net8.0\VorbereitungIHK.csproj.CoreCompileInputs.cache
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\obj\Debug\net8.0\VorbereitungIHK.dll
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\obj\Debug\net8.0\refint\VorbereitungIHK.dll
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\obj\Debug\net8.0\VorbereitungIHK.pdb
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\obj\Debug\net8.0\VorbereitungIHK.genruntimeconfig.cache
+C:\Users\atsia\Desktop\VorbereitungIHK\VorbereitungIHK\obj\Debug\net8.0\ref\VorbereitungIHK.dll
