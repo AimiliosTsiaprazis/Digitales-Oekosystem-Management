@@ -1,0 +1,35 @@
+name: .NET Build & Test
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # .NET 8.0 einrichten
+      - name: Setup .NET 8.0 SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Publish artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: DigitalesOekosystemBuild
+          path: |
+            **/bin/Release/
