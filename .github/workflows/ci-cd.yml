@@ -1,4 +1,4 @@
-name: .NET Build & Test
+name: .NET Build
 
 on:
   push:
@@ -8,28 +8,31 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Repo auschecken
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # .NET 8.0 einrichten
+      # 2️⃣ .NET 8.0 SDK einrichten
       - name: Setup .NET 8.0 SDK
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: "8.0.x"
 
+      # 3️⃣ Abhängigkeiten wiederherstellen
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore VorbereitungIHK.csproj
 
-      - name: Build
-        run: dotnet build --configuration Release --no-restore
+      # 4️⃣ Projekt bauen
+      - name: Build project
+        run: dotnet build VorbereitungIHK.csproj --configuration Release --no-restore
 
-      - name: Publish artifact
+      # 5️⃣ Artefakte hochladen
+      - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: DigitalesOekosystemBuild
+          name: VorbereitungIHK-Build
           path: |
             **/bin/Release/
